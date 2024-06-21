@@ -2,8 +2,8 @@ function Textbox(props) {
   return (
     <div>
       <label
-        htmlFor="companyName" // Changed to 'companyName' to reflect its purpose
-        className="block text-base font-bold text-black dark:text-gray-300 pl-2" // Changed 'text-sm' to 'text-base' for larger font, 'text-gray-500' to 'text-black' for darker text
+        htmlFor="companyName"
+        className="block font-bold text-black dark:text-gray-300 text-base whitespace-nowrap overflow-hidden text-ellipsis"
       >
         Company Name
       </label>
